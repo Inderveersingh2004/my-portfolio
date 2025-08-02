@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>css use</title>
+    <link rel="stylesheet" href="css use.css">
+    <style>
+        /* Internal selector */
+        p{
+            font-family:"ravie";
+            font-size: 15px;
+            margin: 2%;
+            border: 2px solid #ffff00;
+            padding: 1%;
+        }
+        /* Attribute selector */
+        input[type="text"]{
+            margin-left: 10px;
+            background-color: #00ffff;
+        }
+        /* psedudo selector */
+        button:hover{
+            background-color: #ffff00;
+            padding: 3px;
+            border: 2px dashed #ff0000;
+            font-family: ravie;
+        }
+    </style>
+</head>
+<body>
+    <!-- this is inline css -->
+    <h1 style="background-color: aqua; padding: 0em;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, ex!</h1>
+    <!-- internal selector -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, quas.</p>
+    <!-- Attribute selector -->
+    <input type="text" placeholder="Enter your name">  <br><br>
+    <button>Hover me</button>
+</body>
+</html>  
